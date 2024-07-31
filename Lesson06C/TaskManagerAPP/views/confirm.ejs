@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task Confirmation</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <%- include('partials/navbar') %>
+    <div class="container">
+        <h2>Task Entered!</h2>
+        <p><strong>Title:</strong> <%= title %></p>
+        <p><strong>Description:</strong> <%= description %></p>
+        <p><strong>Deadline:</strong> <%= deadline %></p>
+        <p><strong>Priority:</strong> <%= priority %></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: blue;
+}
+
+.module-list {
+    background-color: lightgrey;
+}
+
+a:hover {
+    color: red; /* Change the color to whatever you prefer */
+}
+
+input[type="submit"] {
+    background-color: orange;
+    color: white;
+}
